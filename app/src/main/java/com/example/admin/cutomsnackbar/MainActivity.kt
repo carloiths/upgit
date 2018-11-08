@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         welcomeButton.setOnClickListener {
-            Snackbar.make(mainLayout, "Welcome!! ${firstName.text}", Snackbar.LENGTH_INDEFINITE).show()
+            Snackbar.make(mainLayout, "Welcome! to the jungle second commit ! ${firstName.text}", Snackbar.LENGTH_INDEFINITE).show()
         }
     }
 }
